@@ -1,0 +1,34 @@
+.zona1{    
+    width: 50%;
+    height: 100%;
+    background: #FFFFCC;
+    float: left;
+}
+.zona2{    
+    width: 50%;
+    height: 100%;
+    background: #FFCC66;   
+    margin-left: 50%;
+}
+
+.zona2-select{
+	width: 50%;
+    height: 100%;
+	background: #FFCC00;
+	margin-left: 50%;
+
+}
+:root{
+	--radius-circle: 10px;
+	--size: 20px;
+}
+
+.circle {
+	width: var(--size);
+	height: var(--size);
+	background: #00CC00;
+	position: absolute;
+	-moz-border-radius: var(--radius-circle);
+	-webkit-border-radius: var(--radius-circle);
+	border-radius: var(--radius-circle);
+}
